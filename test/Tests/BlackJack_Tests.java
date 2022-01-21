@@ -1,5 +1,9 @@
 package Tests;
 
+import Cards.Ace;
+import Cards.Card;
+import Cards.Jack;
+import blackjack.BlackJack;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
