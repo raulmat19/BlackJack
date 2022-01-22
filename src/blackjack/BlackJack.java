@@ -46,7 +46,6 @@ public class BlackJack {
         
         // Si el Croupier tiene BlackJack, automáticamente gana él
         if (isBlackJack(croupier.getBet())) {
-            winners.add(croupier);
             return winners;
         }
         
@@ -62,8 +61,7 @@ public class BlackJack {
         for (Player player : players) {
             if (player.isWinner(croupier)) winners.add(player);
         }
-        
-        if (winners.isEmpty()) winners.add(croupier);
+
         return winners;
         
     }
