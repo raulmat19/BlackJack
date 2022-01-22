@@ -1,7 +1,7 @@
 package Cards;
 
-public class King extends Card{
-    
+public class Queen extends Card{
+
     @Override
     public int getValue() {
         return 10;
